@@ -5,7 +5,7 @@ A collection of super dumb Jaas login modules that welcomes all credentials of a
 ## Build
 
 ```bash
-mvn clean package
+./mvnw[.bat] clean package
 ```
 
 Grab the jar from the `target` directory and put it into `WEB-INF/lib` of the application.
