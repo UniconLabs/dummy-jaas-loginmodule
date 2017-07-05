@@ -1,5 +1,6 @@
 # dummy-jaas-loginmodule
-A super dumb Jaas login module that welcomes all credentials. 
+
+A collection of super dumb Jaas login modules that welcomes all credentials of all shapes, sizes and colors. 
 
 ## Build
 
@@ -11,7 +12,7 @@ Grab the jar from the `target` directory and put it into `WEB-INF/lib` of the ap
 
 ## Config
 
-- Accepts any username/password as credentials.
+- Accepts any username/password as credentials
 
 ```
 UserPassAuth {

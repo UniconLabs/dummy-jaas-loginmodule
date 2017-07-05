@@ -7,4 +7,18 @@
     <groupId>net.unicon.authn</groupId>
     <artifactId>authn-extensions</artifactId>
     <version>1.1-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.rimerosolutions.maven.plugins</groupId>
+                <artifactId>wrapper-maven-plugin</artifactId>
+                <version>0.0.4</version>
+                <configuration>
+                    <verifyDownload>true</verifyDownload>
+                    <checksumAlgorithm>MD5</checksumAlgorithm>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
