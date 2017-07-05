@@ -2,6 +2,10 @@
 
 A collection of super dumb Jaas login modules that welcomes all credentials of all shapes, sizes and colors. 
 
+## Download
+
+Releases are available [here](https://github.com/UniconLabs/dummy-jaas-loginmodule/releases).
+
 ## Build
 
 ```bash
