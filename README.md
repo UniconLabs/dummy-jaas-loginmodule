@@ -11,8 +11,18 @@ Grab the jar from the `target` directory and put it into `WEB-INF/lib` of the ap
 
 ## Config
 
+- Accepts any username/password as credentials.
+
 ```
 UserPassAuth {
     net.unicon.authn.jaas.SimpleLoginModule required;
+};
+```
+
+- Username must equal password
+
+```
+UserPassAuth {
+    net.unicon.authn.jaas.NotAsSimpleLoginModule required;
 };
 ```
